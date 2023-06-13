@@ -1,0 +1,50 @@
+@media (max-width:600px){
+    /* For Phones */
+    body{
+        background-color: brown;       
+    }
+    div::after{
+        content: 'For Mobile phones'
+    }
+}
+
+div{
+    text-align: center;
+}
+
+@media (min-width:600px){
+    /* for tablets */
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: 'For Tablets'
+    }
+}
+
+@media (min-width:750px){
+    body{
+        background-color: blue;
+    }
+    div::after{
+        content: 'For Laptops'
+    }
+}
+
+@media (min-width:900px){
+    body{
+        background-color: darkgreen;
+    }
+    div::after{
+        content: 'For High End PCs'
+    }
+}
+
+@media (min-width:1200px){
+    body{
+        background-color: darkorange;
+    }
+    div::after{
+        content: 'For big TVs'
+    }
+}
